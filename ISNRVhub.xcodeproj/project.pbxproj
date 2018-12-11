@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630E3EA619169458001DA1C9 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA219169458001DA1C9 /* greenButton.png */; };
+		630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA319169458001DA1C9 /* greenButton@2x.png */; };
+		630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA419169458001DA1C9 /* greenButtonHighlight.png */; };
+		630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */; };
+		633220191908B6F700A6C302 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220181908B6F700A6C302 /* CFNetwork.framework */; };
+		6332201B1908B74100A6C302 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201A1908B74100A6C302 /* libicucore.dylib */; };
+		6332201D1908B75A00A6C302 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201C1908B75A00A6C302 /* libc++.dylib */; };
+		6332201F1908B76300A6C302 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201E1908B76300A6C302 /* Security.framework */; };
+		633220211908B77700A6C302 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220201908B77700A6C302 /* SystemConfiguration.framework */; };
+		6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332202D1911113200A6C302 /* ISNRVhubIcon.png */; };
+		63322032191113D800A6C302 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63322031191113D800A6C302 /* SWRevealViewController.m */; };
+		633220351911143100A6C302 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633220341911143100A6C302 /* SidebarViewController.m */; };
+		633220421911C7A200A6C302 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 633220391911C7A200A6C302 /* menu.png */; };
+		633220431911C7A200A6C302 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203A1911C7A200A6C302 /* menu@2x.png */; };
+		633220441911C7A200A6C302 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203B1911C7A200A6C302 /* news.png */; };
+		633220451911C7A200A6C302 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203C1911C7A200A6C302 /* photo.png */; };
+		6332204F191319A500A6C302 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332204E191319A500A6C302 /* Accounts.framework */; };
+		63322051191319AC00A6C302 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63322050191319AC00A6C302 /* Social.framework */; };
+		633982AD1915E7400072BB01 /* Masjid Al-Ihsan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */; };
+		63408EB81900A6E800319726 /* PrayerTimesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EB71900A6E800319726 /* PrayerTimesTable.m */; };
+		63408EC31904859A00319726 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EBE1904859A00319726 /* TFHpple.m */; };
+		63408EC41904859A00319726 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC01904859A00319726 /* TFHppleElement.m */; };
+		63408EC51904859A00319726 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC21904859A00319726 /* XPathQuery.m */; };
+		63408EC919048BBA00319726 /* ISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC819048BBA00319726 /* ISNRV.m */; };
+		63408ECE19048E6B00319726 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63408ECD19048E6B00319726 /* libxml2.dylib */; };
+		63408ED119049F4800319726 /* AboutISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408ED019049F4800319726 /* AboutISNRV.m */; };
+		6349521018FDC1FF0054C512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
+		6349521218FDC1FF0054C512 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521118FDC1FF0054C512 /* CoreGraphics.framework */; };
+		6349521418FDC1FF0054C512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521318FDC1FF0054C512 /* UIKit.framework */; };
+		6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
+		6349521C18FDC2000054C512 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
+		6349522018FDC2000054C512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
+		6349522E18FDC2000054C512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
+		6349523518FDC2000054C512 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349523418FDC2000054C512 /* XCTest.framework */; };
+		6349523618FDC2000054C512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
+		6349523718FDC2000054C512 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521318FDC1FF0054C512 /* UIKit.framework */; };
+		6349523F18FDC2000054C512 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349523D18FDC2000054C512 /* InfoPlist.strings */; };
+		6349524118FDC2000054C512 /* ISNRVhubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349524018FDC2000054C512 /* ISNRVhubTests.m */; };
+		63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
+		E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
+		E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
+		E20CF45921BBF4EC0031A875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
+		E20CF45A21BBF4EC0031A875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521B18FDC2000054C512 /* main.m */; };
+		E20CF45B21BBF4EC0031A875 /* PrayerTimesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EB71900A6E800319726 /* PrayerTimesTable.m */; };
+		E20CF45C21BBF4EC0031A875 /* ISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC819048BBA00319726 /* ISNRV.m */; };
+		E20CF45D21BBF4EC0031A875 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EBE1904859A00319726 /* TFHpple.m */; };
+		E20CF45E21BBF4EC0031A875 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC21904859A00319726 /* XPathQuery.m */; };
+		E20CF45F21BBF4EC0031A875 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63322031191113D800A6C302 /* SWRevealViewController.m */; };
+		E20CF46021BBF4EC0031A875 /* AboutISNRV.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408ED019049F4800319726 /* AboutISNRV.m */; };
+		E20CF46121BBF4EC0031A875 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63408EC01904859A00319726 /* TFHppleElement.m */; };
+		E20CF46221BBF4EC0031A875 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633220341911143100A6C302 /* SidebarViewController.m */; };
+		E20CF46421BBF4EC0031A875 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63322050191319AC00A6C302 /* Social.framework */; };
+		E20CF46521BBF4EC0031A875 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332204E191319A500A6C302 /* Accounts.framework */; };
+		E20CF46621BBF4EC0031A875 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220201908B77700A6C302 /* SystemConfiguration.framework */; };
+		E20CF46721BBF4EC0031A875 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201E1908B76300A6C302 /* Security.framework */; };
+		E20CF46821BBF4EC0031A875 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201C1908B75A00A6C302 /* libc++.dylib */; };
+		E20CF46921BBF4EC0031A875 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6332201A1908B74100A6C302 /* libicucore.dylib */; };
+		E20CF46A21BBF4EC0031A875 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633220181908B6F700A6C302 /* CFNetwork.framework */; };
+		E20CF46B21BBF4EC0031A875 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63408ECD19048E6B00319726 /* libxml2.dylib */; };
+		E20CF46C21BBF4EC0031A875 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521118FDC1FF0054C512 /* CoreGraphics.framework */; };
+		E20CF46D21BBF4EC0031A875 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349521318FDC1FF0054C512 /* UIKit.framework */; };
+		E20CF46E21BBF4EC0031A875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349520F18FDC1FF0054C512 /* Foundation.framework */; };
+		E20CF47021BBF4EC0031A875 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */; };
+		E20CF47121BBF4EC0031A875 /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
+		E20CF47221BBF4EC0031A875 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203B1911C7A200A6C302 /* news.png */; };
+		E20CF47321BBF4EC0031A875 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203C1911C7A200A6C302 /* photo.png */; };
+		E20CF47421BBF4EC0031A875 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 633220391911C7A200A6C302 /* menu.png */; };
+		E20CF47521BBF4EC0031A875 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
+		E20CF47621BBF4EC0031A875 /* Masjid Al-Ihsan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */; };
+		E20CF47721BBF4EC0031A875 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA219169458001DA1C9 /* greenButton.png */; };
+		E20CF47821BBF4EC0031A875 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA319169458001DA1C9 /* greenButton@2x.png */; };
+		E20CF47921BBF4EC0031A875 /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA419169458001DA1C9 /* greenButtonHighlight.png */; };
+		E20CF47A21BBF4EC0031A875 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332203A1911C7A200A6C302 /* menu@2x.png */; };
+		E20CF47B21BBF4EC0031A875 /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */; };
+		E20CF47C21BBF4EC0031A875 /* ISNRVhubIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6332202D1911113200A6C302 /* ISNRVhubIcon.png */; };
+		E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
+		E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
+		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6349523818FDC2000054C512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6349520418FDC1FF0054C512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6349520B18FDC1FF0054C512;
+			remoteInfo = ISNRVhub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		630E3EA219169458001DA1C9 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		630E3EA319169458001DA1C9 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		630E3EA419169458001DA1C9 /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		633220181908B6F700A6C302 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6332201A1908B74100A6C302 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		6332201C1908B75A00A6C302 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		6332201E1908B76300A6C302 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		633220201908B77700A6C302 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6332202D1911113200A6C302 /* ISNRVhubIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISNRVhubIcon.png; sourceTree = "<group>"; };
+		63322030191113D800A6C302 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		63322031191113D800A6C302 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		633220331911143100A6C302 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		633220341911143100A6C302 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		633220391911C7A200A6C302 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		6332203A1911C7A200A6C302 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		6332203B1911C7A200A6C302 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		6332203C1911C7A200A6C302 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
+		6332204E191319A500A6C302 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		63322050191319AC00A6C302 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Masjid Al-Ihsan.jpg"; sourceTree = "<group>"; };
+		63408EB61900A6E800319726 /* PrayerTimesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrayerTimesTable.h; sourceTree = "<group>"; };
+		63408EB71900A6E800319726 /* PrayerTimesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrayerTimesTable.m; sourceTree = "<group>"; };
+		63408EBD1904859A00319726 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = ISNRVhub/hpple/TFHpple.h; sourceTree = "<group>"; };
+		63408EBE1904859A00319726 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = ISNRVhub/hpple/TFHpple.m; sourceTree = "<group>"; };
+		63408EBF1904859A00319726 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = ISNRVhub/hpple/TFHppleElement.h; sourceTree = "<group>"; };
+		63408EC01904859A00319726 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = ISNRVhub/hpple/TFHppleElement.m; sourceTree = "<group>"; };
+		63408EC11904859A00319726 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ISNRVhub/hpple/XPathQuery.h; sourceTree = "<group>"; };
+		63408EC21904859A00319726 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ISNRVhub/hpple/XPathQuery.m; sourceTree = "<group>"; };
+		63408EC719048BBA00319726 /* ISNRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISNRV.h; path = ISNRVhub/ISNRV.h; sourceTree = "<group>"; };
+		63408EC819048BBA00319726 /* ISNRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISNRV.m; path = ISNRVhub/ISNRV.m; sourceTree = "<group>"; };
+		63408ECD19048E6B00319726 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		63408ECF19049F4800319726 /* AboutISNRV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutISNRV.h; sourceTree = "<group>"; };
+		63408ED019049F4800319726 /* AboutISNRV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutISNRV.m; sourceTree = "<group>"; };
+		6349520C18FDC1FF0054C512 /* ISNRVhub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISNRVhub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6349520F18FDC1FF0054C512 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6349521118FDC1FF0054C512 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6349521318FDC1FF0054C512 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6349521718FDC1FF0054C512 /* ISNRVhub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISNRVhub-Info.plist"; sourceTree = "<group>"; };
+		6349521918FDC2000054C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6349521B18FDC2000054C512 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6349521D18FDC2000054C512 /* ISNRVhub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISNRVhub-Prefix.pch"; sourceTree = "<group>"; };
+		6349521E18FDC2000054C512 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6349521F18FDC2000054C512 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6349522D18FDC2000054C512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6349523318FDC2000054C512 /* ISNRVhubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISNRVhubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6349523418FDC2000054C512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6349523C18FDC2000054C512 /* ISNRVhubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ISNRVhubTests-Info.plist"; sourceTree = "<group>"; };
+		6349523E18FDC2000054C512 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6349524018FDC2000054C512 /* ISNRVhubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISNRVhubTests.m; sourceTree = "<group>"; };
+		63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrayerTimes.plist; sourceTree = "<group>"; };
+		E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISNRVhub-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6349520918FDC1FF0054C512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63322051191319AC00A6C302 /* Social.framework in Frameworks */,
+				6332204F191319A500A6C302 /* Accounts.framework in Frameworks */,
+				633220211908B77700A6C302 /* SystemConfiguration.framework in Frameworks */,
+				6332201F1908B76300A6C302 /* Security.framework in Frameworks */,
+				6332201D1908B75A00A6C302 /* libc++.dylib in Frameworks */,
+				6332201B1908B74100A6C302 /* libicucore.dylib in Frameworks */,
+				633220191908B6F700A6C302 /* CFNetwork.framework in Frameworks */,
+				63408ECE19048E6B00319726 /* libxml2.dylib in Frameworks */,
+				6349521218FDC1FF0054C512 /* CoreGraphics.framework in Frameworks */,
+				6349521418FDC1FF0054C512 /* UIKit.framework in Frameworks */,
+				6349521018FDC1FF0054C512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6349523018FDC2000054C512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6349523518FDC2000054C512 /* XCTest.framework in Frameworks */,
+				6349523718FDC2000054C512 /* UIKit.framework in Frameworks */,
+				6349523618FDC2000054C512 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CF46321BBF4EC0031A875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CF46421BBF4EC0031A875 /* Social.framework in Frameworks */,
+				E20CF46521BBF4EC0031A875 /* Accounts.framework in Frameworks */,
+				E20CF46621BBF4EC0031A875 /* SystemConfiguration.framework in Frameworks */,
+				E20CF46721BBF4EC0031A875 /* Security.framework in Frameworks */,
+				E20CF46821BBF4EC0031A875 /* libc++.dylib in Frameworks */,
+				E20CF46921BBF4EC0031A875 /* libicucore.dylib in Frameworks */,
+				E20CF46A21BBF4EC0031A875 /* CFNetwork.framework in Frameworks */,
+				E20CF46B21BBF4EC0031A875 /* libxml2.dylib in Frameworks */,
+				E20CF46C21BBF4EC0031A875 /* CoreGraphics.framework in Frameworks */,
+				E20CF46D21BBF4EC0031A875 /* UIKit.framework in Frameworks */,
+				E20CF46E21BBF4EC0031A875 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6332202F191113BA00A6C302 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63322030191113D800A6C302 /* SWRevealViewController.h */,
+				63322031191113D800A6C302 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		633220481911C7B700A6C302 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				630E3EA219169458001DA1C9 /* greenButton.png */,
+				630E3EA319169458001DA1C9 /* greenButton@2x.png */,
+				630E3EA419169458001DA1C9 /* greenButtonHighlight.png */,
+				630E3EA519169458001DA1C9 /* greenButtonHighlight@2x.png */,
+				633982AB1915E7400072BB01 /* Masjid Al-Ihsan.jpg */,
+				633220391911C7A200A6C302 /* menu.png */,
+				6332203A1911C7A200A6C302 /* menu@2x.png */,
+				6332203B1911C7A200A6C302 /* news.png */,
+				6332203C1911C7A200A6C302 /* photo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		63408EBC1904855B00319726 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				63408EBD1904859A00319726 /* TFHpple.h */,
+				63408EBE1904859A00319726 /* TFHpple.m */,
+				63408EBF1904859A00319726 /* TFHppleElement.h */,
+				63408EC01904859A00319726 /* TFHppleElement.m */,
+				63408EC11904859A00319726 /* XPathQuery.h */,
+				63408EC21904859A00319726 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		63408EC619048B4300319726 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63408EC719048BBA00319726 /* ISNRV.h */,
+				63408EC819048BBA00319726 /* ISNRV.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6349520318FDC1FF0054C512 = {
+			isa = PBXGroup;
+			children = (
+				E20CF48321BBF4EC0031A875 /* Resources-iPad */,
+				6332202F191113BA00A6C302 /* SWRevealViewController */,
+				63408EC619048B4300319726 /* Model */,
+				63408EBC1904855B00319726 /* hpple */,
+				6349521518FDC1FF0054C512 /* ISNRVhub */,
+				6349523A18FDC2000054C512 /* ISNRVhubTests */,
+				6349520E18FDC1FF0054C512 /* Frameworks */,
+				6349520D18FDC1FF0054C512 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6349520D18FDC1FF0054C512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6349520C18FDC1FF0054C512 /* ISNRVhub.app */,
+				6349523318FDC2000054C512 /* ISNRVhubTests.xctest */,
+				E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6349520E18FDC1FF0054C512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63322050191319AC00A6C302 /* Social.framework */,
+				6332204E191319A500A6C302 /* Accounts.framework */,
+				633220201908B77700A6C302 /* SystemConfiguration.framework */,
+				6332201E1908B76300A6C302 /* Security.framework */,
+				6332201C1908B75A00A6C302 /* libc++.dylib */,
+				6332201A1908B74100A6C302 /* libicucore.dylib */,
+				633220181908B6F700A6C302 /* CFNetwork.framework */,
+				63408ECD19048E6B00319726 /* libxml2.dylib */,
+				6349520F18FDC1FF0054C512 /* Foundation.framework */,
+				6349521118FDC1FF0054C512 /* CoreGraphics.framework */,
+				6349521318FDC1FF0054C512 /* UIKit.framework */,
+				6349523418FDC2000054C512 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6349521518FDC1FF0054C512 /* ISNRVhub */ = {
+			isa = PBXGroup;
+			children = (
+				E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */,
+				E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */,
+				63408ECF19049F4800319726 /* AboutISNRV.h */,
+				63408ED019049F4800319726 /* AboutISNRV.m */,
+				6349521E18FDC2000054C512 /* AppDelegate.h */,
+				6349521F18FDC2000054C512 /* AppDelegate.m */,
+				63408EB61900A6E800319726 /* PrayerTimesTable.h */,
+				63408EB71900A6E800319726 /* PrayerTimesTable.m */,
+				633220331911143100A6C302 /* SidebarViewController.h */,
+				633220341911143100A6C302 /* SidebarViewController.m */,
+				6349522D18FDC2000054C512 /* Images.xcassets */,
+				6349521618FDC1FF0054C512 /* Supporting Files */,
+				63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */,
+			);
+			path = ISNRVhub;
+			sourceTree = "<group>";
+		};
+		6349521618FDC1FF0054C512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633220481911C7B700A6C302 /* Images */,
+				6332202D1911113200A6C302 /* ISNRVhubIcon.png */,
+				E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */,
+				6349521718FDC1FF0054C512 /* ISNRVhub-Info.plist */,
+				6349521818FDC2000054C512 /* InfoPlist.strings */,
+				6349521B18FDC2000054C512 /* main.m */,
+				6349521D18FDC2000054C512 /* ISNRVhub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6349523A18FDC2000054C512 /* ISNRVhubTests */ = {
+			isa = PBXGroup;
+			children = (
+				6349524018FDC2000054C512 /* ISNRVhubTests.m */,
+				6349523B18FDC2000054C512 /* Supporting Files */,
+			);
+			path = ISNRVhubTests;
+			sourceTree = "<group>";
+		};
+		6349523B18FDC2000054C512 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6349523C18FDC2000054C512 /* ISNRVhubTests-Info.plist */,
+				6349523D18FDC2000054C512 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E20CF48321BBF4EC0031A875 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6349520B18FDC1FF0054C512 /* ISNRVhub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6349524418FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhub" */;
+			buildPhases = (
+				6349520818FDC1FF0054C512 /* Sources */,
+				6349520918FDC1FF0054C512 /* Frameworks */,
+				6349520A18FDC1FF0054C512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISNRVhub;
+			productName = ISNRVhub;
+			productReference = 6349520C18FDC1FF0054C512 /* ISNRVhub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6349523218FDC2000054C512 /* ISNRVhubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6349524718FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhubTests" */;
+			buildPhases = (
+				6349522F18FDC2000054C512 /* Sources */,
+				6349523018FDC2000054C512 /* Frameworks */,
+				6349523118FDC2000054C512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6349523918FDC2000054C512 /* PBXTargetDependency */,
+			);
+			name = ISNRVhubTests;
+			productName = ISNRVhubTests;
+			productReference = 6349523318FDC2000054C512 /* ISNRVhubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E20CF45721BBF4EC0031A875 /* ISNRVhub-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20CF47F21BBF4EC0031A875 /* Build configuration list for PBXNativeTarget "ISNRVhub-iPad" */;
+			buildPhases = (
+				E20CF45821BBF4EC0031A875 /* Sources */,
+				E20CF46321BBF4EC0031A875 /* Frameworks */,
+				E20CF46F21BBF4EC0031A875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISNRVhub-iPad";
+			productName = ISNRVhub;
+			productReference = E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6349520418FDC1FF0054C512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ISNRV;
+				TargetAttributes = {
+					6349520B18FDC1FF0054C512 = {
+						DevelopmentTeam = 384E4QA5K8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					6349523218FDC2000054C512 = {
+						TestTargetID = 6349520B18FDC1FF0054C512;
+					};
+					E20CF45721BBF4EC0031A875 = {
+						DevelopmentTeam = 384E4QA5K8;
+					};
+				};
+			};
+			buildConfigurationList = 6349520718FDC1FF0054C512 /* Build configuration list for PBXProject "ISNRVhub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6349520318FDC1FF0054C512;
+			productRefGroup = 6349520D18FDC1FF0054C512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6349520B18FDC1FF0054C512 /* ISNRVhub */,
+				E20CF45721BBF4EC0031A875 /* ISNRVhub-iPad */,
+				6349523218FDC2000054C512 /* ISNRVhubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6349520A18FDC1FF0054C512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CF45621BBF19C0031A875 /* Main_iPad.storyboard in Resources */,
+				63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */,
+				633220441911C7A200A6C302 /* news.png in Resources */,
+				633220451911C7A200A6C302 /* photo.png in Resources */,
+				633220421911C7A200A6C302 /* menu.png in Resources */,
+				6349522E18FDC2000054C512 /* Images.xcassets in Resources */,
+				633982AD1915E7400072BB01 /* Masjid Al-Ihsan.jpg in Resources */,
+				E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */,
+				630E3EA619169458001DA1C9 /* greenButton.png in Resources */,
+				630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */,
+				630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */,
+				633220431911C7A200A6C302 /* menu@2x.png in Resources */,
+				630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */,
+				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
+				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
+				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6349523118FDC2000054C512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6349523F18FDC2000054C512 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CF46F21BBF4EC0031A875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CF47021BBF4EC0031A875 /* Main_iPad.storyboard in Resources */,
+				E20CF47121BBF4EC0031A875 /* PrayerTimes.plist in Resources */,
+				E20CF47221BBF4EC0031A875 /* news.png in Resources */,
+				E20CF47321BBF4EC0031A875 /* photo.png in Resources */,
+				E20CF47421BBF4EC0031A875 /* menu.png in Resources */,
+				E20CF47521BBF4EC0031A875 /* Images.xcassets in Resources */,
+				E20CF47621BBF4EC0031A875 /* Masjid Al-Ihsan.jpg in Resources */,
+				E20CF47721BBF4EC0031A875 /* greenButton.png in Resources */,
+				E20CF47821BBF4EC0031A875 /* greenButton@2x.png in Resources */,
+				E20CF47921BBF4EC0031A875 /* greenButtonHighlight.png in Resources */,
+				E20CF47A21BBF4EC0031A875 /* menu@2x.png in Resources */,
+				E20CF47B21BBF4EC0031A875 /* greenButtonHighlight@2x.png in Resources */,
+				E20CF47C21BBF4EC0031A875 /* ISNRVhubIcon.png in Resources */,
+				E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */,
+				E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6349520818FDC1FF0054C512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6349522018FDC2000054C512 /* AppDelegate.m in Sources */,
+				6349521C18FDC2000054C512 /* main.m in Sources */,
+				63408EB81900A6E800319726 /* PrayerTimesTable.m in Sources */,
+				63408EC919048BBA00319726 /* ISNRV.m in Sources */,
+				63408EC31904859A00319726 /* TFHpple.m in Sources */,
+				63408EC51904859A00319726 /* XPathQuery.m in Sources */,
+				63322032191113D800A6C302 /* SWRevealViewController.m in Sources */,
+				63408ED119049F4800319726 /* AboutISNRV.m in Sources */,
+				63408EC41904859A00319726 /* TFHppleElement.m in Sources */,
+				633220351911143100A6C302 /* SidebarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6349522F18FDC2000054C512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6349524118FDC2000054C512 /* ISNRVhubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20CF45821BBF4EC0031A875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20CF45921BBF4EC0031A875 /* AppDelegate.m in Sources */,
+				E20CF45A21BBF4EC0031A875 /* main.m in Sources */,
+				E20CF45B21BBF4EC0031A875 /* PrayerTimesTable.m in Sources */,
+				E20CF45C21BBF4EC0031A875 /* ISNRV.m in Sources */,
+				E20CF45D21BBF4EC0031A875 /* TFHpple.m in Sources */,
+				E20CF45E21BBF4EC0031A875 /* XPathQuery.m in Sources */,
+				E20CF45F21BBF4EC0031A875 /* SWRevealViewController.m in Sources */,
+				E20CF46021BBF4EC0031A875 /* AboutISNRV.m in Sources */,
+				E20CF46121BBF4EC0031A875 /* TFHppleElement.m in Sources */,
+				E20CF46221BBF4EC0031A875 /* SidebarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6349523918FDC2000054C512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6349520B18FDC1FF0054C512 /* ISNRVhub */;
+			targetProxy = 6349523818FDC2000054C512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6349521818FDC2000054C512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6349521918FDC2000054C512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6349523D18FDC2000054C512 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6349523E18FDC2000054C512 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6349524218FDC2000054C512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6349524318FDC2000054C512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6349524518FDC2000054C512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "ISNRVhub/ISNRVhub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6349524618FDC2000054C512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "ISNRVhub/ISNRVhub-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6349524818FDC2000054C512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISNRVhub.app/ISNRVhub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ISNRVhubTests/ISNRVhubTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6349524918FDC2000054C512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ISNRVhub.app/ISNRVhub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				INFOPLIST_FILE = "ISNRVhubTests/ISNRVhubTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		E20CF48021BBF4EC0031A875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 384E4QA5K8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/ISNRVhub/ISNRVhub-ipad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ISNRVhub-iPad";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E20CF48121BBF4EC0031A875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 384E4QA5K8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "$(SRCROOT)/ISNRVhub/ISNRVhub-ipad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "ISNRVhub-iPad";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6349520718FDC1FF0054C512 /* Build configuration list for PBXProject "ISNRVhub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6349524218FDC2000054C512 /* Debug */,
+				6349524318FDC2000054C512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6349524418FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6349524518FDC2000054C512 /* Debug */,
+				6349524618FDC2000054C512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6349524718FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6349524818FDC2000054C512 /* Debug */,
+				6349524918FDC2000054C512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20CF47F21BBF4EC0031A875 /* Build configuration list for PBXNativeTarget "ISNRVhub-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20CF48021BBF4EC0031A875 /* Debug */,
+				E20CF48121BBF4EC0031A875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6349520418FDC1FF0054C512 /* Project object */;
+}
