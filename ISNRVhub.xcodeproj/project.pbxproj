@@ -85,6 +85,8 @@
 		E20CF47D21BBF4EC0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
 		E20CF47E21BBF4EC0031A875 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6349521818FDC2000054C512 /* InfoPlist.strings */; };
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
+		E22995D221C3B8B100905DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22995D021C3B8B000905DEC /* Images.xcassets */; };
+		E22995D321C3B8B100905DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22995D121C3B8B100905DEC /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +155,8 @@
 		E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		E20CF48221BBF4EC0031A875 /* ISNRVhub-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISNRVhub-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
+		E22995D021C3B8B000905DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E22995D121C3B8B100905DEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +237,7 @@
 		63408EBC1904855B00319726 /* hpple */ = {
 			isa = PBXGroup;
 			children = (
+				E22995CE21C3B7CF00905DEC /* Shared */,
 				63408EBD1904859A00319726 /* TFHpple.h */,
 				63408EBE1904859A00319726 /* TFHpple.m */,
 				63408EBF1904859A00319726 /* TFHppleElement.h */,
@@ -255,6 +260,7 @@
 		6349520318FDC1FF0054C512 = {
 			isa = PBXGroup;
 			children = (
+				E22995CF21C3B80900905DEC /* Shared */,
 				E20CF48321BBF4EC0031A875 /* Resources-iPad */,
 				6332202F191113BA00A6C302 /* SWRevealViewController */,
 				63408EC619048B4300319726 /* Model */,
@@ -352,6 +358,23 @@
 			children = (
 			);
 			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		E22995CE21C3B7CF00905DEC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Shared;
+			path = ISNRVhub;
+			sourceTree = "<group>";
+		};
+		E22995CF21C3B80900905DEC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E22995D021C3B8B000905DEC /* Images.xcassets */,
+				E22995D121C3B8B100905DEC /* LaunchScreen.xib */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,10 +493,12 @@
 				630E3EA619169458001DA1C9 /* greenButton.png in Resources */,
 				630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */,
 				630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */,
+				E22995D221C3B8B100905DEC /* Images.xcassets in Resources */,
 				633220431911C7A200A6C302 /* menu@2x.png in Resources */,
 				630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */,
 				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
 				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
+				E22995D321C3B8B100905DEC /* LaunchScreen.xib in Resources */,
 				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
