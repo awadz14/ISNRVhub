@@ -141,11 +141,11 @@
     // create dictionary with values in UITextFields
     NSDictionary *plistDict = [NSDictionary dictionaryWithObjects: [NSArray arrayWithObjects: adhans, iqamas, nil] forKeys:[NSArray arrayWithObjects: @"Adhan", @"Iqama", nil]];
     
-    //NSError *error = nil;
-    NSString *error = nil;
+    NSError *error = nil;
+    //NSString *error = nil;
     // create NSData from dictionary
-    NSData *plistData = [NSPropertyListSerialization dataFromPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 errorDescription:&error];
-    //NSData *plistData = [NSPropertyListSerialization dataWithPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 options:NSPropertyListImmutable error:&error];
+    //NSData *plistData = [NSPropertyListSerialization dataFromPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 errorDescription:&error];
+    NSData *plistData = [NSPropertyListSerialization dataWithPropertyList:plistDict format:NSPropertyListXMLFormat_v1_0 options:NSPropertyListImmutable error:&error];
     
     // check is plistData exists
     if(plistData)
@@ -167,10 +167,11 @@
 {
     // read property list into memory as an NSData object
     NSData *plistXML = [[NSFileManager defaultManager] contentsAtPath:path];
-    NSString *errorDesc = nil;
+    NSError *errorDesc = nil;
     NSPropertyListFormat format;
     // convert static property list into dictionary object
-    NSDictionary *temp = (NSDictionary *)[NSPropertyListSerialization propertyListFromData:plistXML mutabilityOption:NSPropertyListMutableContainersAndLeaves format:&format errorDescription:&errorDesc];
+    NSDictionary *temp = (NSDictionary *)[NSPropertyListSerialization propertyListWithData:plistXML options:NSPropertyListMutableContainersAndLeaves format:&format error:&errorDesc];
+    
     if (!temp)
     {
         NSLog(@"Error reading plist: %@, format: %lu at  path: %@", errorDesc, (unsigned long)format,path);
@@ -182,8 +183,8 @@
     adhanPlist = [NSMutableArray arrayWithArray:[temp objectForKey:@"Adhan"]];
     iqamaPlist = [NSMutableArray arrayWithArray:[temp objectForKey:@"Iqama"]];
     
-    NSString *readAdhan = adhanPlist[0];
-    NSString *readIqama = iqamaPlist[0];
+    //NSString *readAdhan = adhanPlist[0];
+    //NSString *readIqama = iqamaPlist[0];
 
     
     //NSLog(@"Test adhan is %@ and iqama is %@", readAdhan, readIqama);

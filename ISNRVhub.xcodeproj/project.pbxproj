@@ -87,6 +87,8 @@
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
 		E22995D221C3B8B100905DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22995D021C3B8B000905DEC /* Images.xcassets */; };
 		E22995D321C3B8B100905DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22995D121C3B8B100905DEC /* LaunchScreen.xib */; };
+		E22B7E7D21C6E83F005E2088 /* ParkingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */; };
+		E22B7E7E21C6E83F005E2088 /* ParkingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +159,8 @@
 		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
 		E22995D021C3B8B000905DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E22995D121C3B8B100905DEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E22B7E7B21C6E83F005E2088 /* ParkingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingStatus.h; sourceTree = "<group>"; };
+		E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +308,8 @@
 		6349521518FDC1FF0054C512 /* ISNRVhub */ = {
 			isa = PBXGroup;
 			children = (
+				E22B7E7B21C6E83F005E2088 /* ParkingStatus.h */,
+				E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */,
 				E20CF45421BBF19C0031A875 /* Main_iPad.storyboard */,
 				E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */,
 				63408ECF19049F4800319726 /* AboutISNRV.h */,
@@ -548,6 +554,7 @@
 				63408EC51904859A00319726 /* XPathQuery.m in Sources */,
 				63322032191113D800A6C302 /* SWRevealViewController.m in Sources */,
 				63408ED119049F4800319726 /* AboutISNRV.m in Sources */,
+				E22B7E7D21C6E83F005E2088 /* ParkingStatus.m in Sources */,
 				63408EC41904859A00319726 /* TFHppleElement.m in Sources */,
 				633220351911143100A6C302 /* SidebarViewController.m in Sources */,
 			);
@@ -573,6 +580,7 @@
 				E20CF45E21BBF4EC0031A875 /* XPathQuery.m in Sources */,
 				E20CF45F21BBF4EC0031A875 /* SWRevealViewController.m in Sources */,
 				E20CF46021BBF4EC0031A875 /* AboutISNRV.m in Sources */,
+				E22B7E7E21C6E83F005E2088 /* ParkingStatus.m in Sources */,
 				E20CF46121BBF4EC0031A875 /* TFHppleElement.m in Sources */,
 				E20CF46221BBF4EC0031A875 /* SidebarViewController.m in Sources */,
 			);

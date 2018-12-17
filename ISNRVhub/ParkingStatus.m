@@ -71,7 +71,7 @@
 
 - (void)getParkingStatus
 {
-    NSString* url = @"https://isnrvhub.firebaseio.com/parking";
+   /* NSString* url = @"https://isnrvhub.firebaseio.com/parking";
     Firebase* dataRef = [[Firebase alloc] initWithUrl:url];
     __block NSString* status = [[NSString alloc] init];
     [dataRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
@@ -80,7 +80,7 @@
         parkStatus.text = status;
 
 
-    }];
+    }];*/
     
 
 
