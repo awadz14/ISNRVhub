@@ -41,12 +41,14 @@
 		6349522018FDC2000054C512 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349521F18FDC2000054C512 /* AppDelegate.m */; };
 		6349522E18FDC2000054C512 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6349522D18FDC2000054C512 /* Images.xcassets */; };
 		63C1A0CF1AF655DA005B0A4A /* PrayerTimes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */; };
-		E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */; };
+		BDE0C374B0DE23F2D2CBBFA4 /* Pods_ISNRVhub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1636D4B4CF7E7917B94BEED /* Pods_ISNRVhub.framework */; };
+		E20CF45521BBF19C0031A875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E20CF45321BBF19C0031A875 /* Main.storyboard */; };
 		E20CF48621BBF9000031A875 /* ISNRVhub-ipad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */; };
 		E22995D221C3B8B100905DEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22995D021C3B8B000905DEC /* Images.xcassets */; };
 		E22995D321C3B8B100905DEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22995D121C3B8B100905DEC /* LaunchScreen.xib */; };
 		E22B7E7D21C6E83F005E2088 /* ParkingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */; };
 		E22B7E8021C738A5005E2088 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B7E7F21C738A5005E2088 /* Main_iPad.storyboard */; };
+		E25D4E3621CE7C7B008E16B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E25D4E3521CE7C7B008E16B6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,7 +99,9 @@
 		6349522D18FDC2000054C512 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6349523418FDC2000054C512 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		63C1A0CE1AF655D9005B0A4A /* PrayerTimes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PrayerTimes.plist; sourceTree = "<group>"; };
-		E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		944191F3E9093EDC92A27824 /* Pods-ISNRVhub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISNRVhub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISNRVhub/Pods-ISNRVhub.debug.xcconfig"; sourceTree = "<group>"; };
+		B1636D4B4CF7E7917B94BEED /* Pods_ISNRVhub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISNRVhub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20CF45321BBF19C0031A875 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E20CF48521BBF9000031A875 /* ISNRVhub-ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISNRVhub-ipad-Info.plist"; sourceTree = "<group>"; };
 		E22995D021C3B8B000905DEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E22995D121C3B8B100905DEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingStatus.m; sourceTree = "<group>"; };
 		E22B7E7F21C738A5005E2088 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		E22B7E8321C755DB005E2088 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		E25D4E3521CE7C7B008E16B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F038EE3FFE273F53D7CA41D7 /* Pods-ISNRVhub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISNRVhub.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISNRVhub/Pods-ISNRVhub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +129,22 @@
 				6349521218FDC1FF0054C512 /* CoreGraphics.framework in Frameworks */,
 				6349521418FDC1FF0054C512 /* UIKit.framework in Frameworks */,
 				6349521018FDC1FF0054C512 /* Foundation.framework in Frameworks */,
+				BDE0C374B0DE23F2D2CBBFA4 /* Pods_ISNRVhub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59D8CC1D556A4C29DC24E145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944191F3E9093EDC92A27824 /* Pods-ISNRVhub.debug.xcconfig */,
+				F038EE3FFE273F53D7CA41D7 /* Pods-ISNRVhub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6332202F191113BA00A6C302 /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +202,7 @@
 				6349521518FDC1FF0054C512 /* ISNRVhub */,
 				6349520E18FDC1FF0054C512 /* Frameworks */,
 				6349520D18FDC1FF0054C512 /* Products */,
+				59D8CC1D556A4C29DC24E145 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +230,7 @@
 				6349521118FDC1FF0054C512 /* CoreGraphics.framework */,
 				6349521318FDC1FF0054C512 /* UIKit.framework */,
 				6349523418FDC2000054C512 /* XCTest.framework */,
+				B1636D4B4CF7E7917B94BEED /* Pods_ISNRVhub.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,10 +238,11 @@
 		6349521518FDC1FF0054C512 /* ISNRVhub */ = {
 			isa = PBXGroup;
 			children = (
+				E25D4E3521CE7C7B008E16B6 /* GoogleService-Info.plist */,
 				E22B7E7F21C738A5005E2088 /* Main_iPad.storyboard */,
 				E22B7E7B21C6E83F005E2088 /* ParkingStatus.h */,
 				E22B7E7C21C6E83F005E2088 /* ParkingStatus.m */,
-				E20CF45321BBF19C0031A875 /* Main_iPhone.storyboard */,
+				E20CF45321BBF19C0031A875 /* Main.storyboard */,
 				63408ECF19049F4800319726 /* AboutISNRV.h */,
 				63408ED019049F4800319726 /* AboutISNRV.m */,
 				6349521E18FDC2000054C512 /* AppDelegate.h */,
@@ -269,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6349524418FDC2000054C512 /* Build configuration list for PBXNativeTarget "ISNRVhub" */;
 			buildPhases = (
+				370213938ACB5F8BE434C787 /* [CP] Check Pods Manifest.lock */,
 				6349520818FDC1FF0054C512 /* Sources */,
 				6349520918FDC1FF0054C512 /* Frameworks */,
 				6349520A18FDC1FF0054C512 /* Resources */,
+				DE01BE1CF19BBB10EF8664F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -335,17 +356,69 @@
 				630E3EA619169458001DA1C9 /* greenButton.png in Resources */,
 				630E3EA719169458001DA1C9 /* greenButton@2x.png in Resources */,
 				630E3EA819169458001DA1C9 /* greenButtonHighlight.png in Resources */,
+				E25D4E3621CE7C7B008E16B6 /* GoogleService-Info.plist in Resources */,
 				E22995D221C3B8B100905DEC /* Images.xcassets in Resources */,
 				633220431911C7A200A6C302 /* menu@2x.png in Resources */,
 				630E3EA919169458001DA1C9 /* greenButtonHighlight@2x.png in Resources */,
 				6332202E1911113200A6C302 /* ISNRVhubIcon.png in Resources */,
-				E20CF45521BBF19C0031A875 /* Main_iPhone.storyboard in Resources */,
+				E20CF45521BBF19C0031A875 /* Main.storyboard in Resources */,
 				E22995D321C3B8B100905DEC /* LaunchScreen.xib in Resources */,
 				6349521A18FDC2000054C512 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		370213938ACB5F8BE434C787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISNRVhub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE01BE1CF19BBB10EF8664F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ISNRVhub/Pods-ISNRVhub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ISNRVhub/Pods-ISNRVhub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6349520818FDC1FF0054C512 /* Sources */ = {
@@ -485,6 +558,7 @@
 		};
 		6349524518FDC2000054C512 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944191F3E9093EDC92A27824 /* Pods-ISNRVhub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -496,20 +570,27 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "ISNRVhub/ISNRVhub-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6349524618FDC2000054C512 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F038EE3FFE273F53D7CA41D7 /* Pods-ISNRVhub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -521,14 +602,20 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ISNRVhub/ISNRVhub-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "ISNRVhub/ISNRVhub-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.isnrv.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

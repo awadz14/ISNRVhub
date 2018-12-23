@@ -9,8 +9,15 @@
 #import "ParkingStatus.h"
 #import "SWRevealViewController.h"
 
+@import Firebase;
 
-@interface ParkingStatus ()
+@interface ParkingStatus (){
+    FIRDatabaseHandle _refHandle;
+}
+
+@property (strong, nonatomic) FIRDatabaseReference *ref;
+@property (strong, nonatomic) NSMutableArray<FIRDataSnapshot *> *parkingStatus;
+
 
 @end
 
@@ -32,8 +39,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self getParkingStatus];
-    
+
     UIGraphicsBeginImageContext(self.view.frame.size);
     [[UIImage imageNamed:@"Masjid Al-Ihsan.jpg"] drawInRect:self.view.bounds];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
@@ -50,6 +56,11 @@
     
     // Set the gesture
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    
+    
+    // Firebase configuration
+    [self getParkingStatus];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -69,21 +80,25 @@
 }
 */
 
-- (void)getParkingStatus
-{
-   /* NSString* url = @"https://isnrvhub.firebaseio.com/parking";
-    Firebase* dataRef = [[Firebase alloc] initWithUrl:url];
-    __block NSString* status = [[NSString alloc] init];
-    [dataRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
-        //NSLog(@"Parking status is: %@", snapshot.value);
-        status = [NSString stringWithFormat:@"%@",snapshot.value];
-        parkStatus.text = status;
-
-
-    }];*/
+- (void)getParkingStatus {
+    _ref = [[FIRDatabase database] reference];
+    // Listen for status in the Firebase database
     
+    _refHandle = [[_ref child:@"parking"] observeEventType:FIRDataEventTypeChildAdded withBlock:^(FIRDataSnapshot *snapshot) {
+        
+        self->parkStatus.text = snapshot.value;
+        
+    }];
+     
+    _refHandle = [[_ref child:@"parking"] observeEventType:FIRDataEventTypeChildChanged withBlock:^(FIRDataSnapshot *snapshot) {
 
+        self->parkStatus.text = snapshot.value;
 
+    }];
+}
+
+- (void)dealloc {
+    [[_ref child:@"parking"] removeObserverWithHandle:_refHandle];
 }
 
 
